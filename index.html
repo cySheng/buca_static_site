@@ -1,30 +1,35 @@
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KG0XQX9VV0"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-KG0XQX9VV0');
+  </script>
+
   <title>BUCA: The Resident Association Application</title>
-  
   <meta name="description" content="From security fee collection to internal RA management tools, BUCA has got you covered when it comes to managing your resident association." />
-  
   <meta name="keywords" content="BUCA, Malaysia, Resident Association, Rukun Tetangga, Community, Guarded Status, Guarded Neighborhood" />
   
   <!-- <meta property="og:image" content="/static/og_image-198f627dc77a24fe0cf9d2ef28caac6f.png" /> -->
-  
   <meta property="og:title" content="The simplest resident association software around - BUCA" />
-  
   <meta property="og:description" content="From security fee collection to internal RA management tools, BUCA has got you covered when it comes to managing your resident association." />
-  
   <meta property="og:type" content="website" />
   
   <meta name="twitter:card" content="summary" />
-  
   <meta name="twitter:creator" content="Sheng" />
-  
   <meta name="twitter:title" content="The simplest resident association software around - BUCA" />
-  
   <meta name="twitter:description" content="From security fee collection to internal RA management tools, BUCA has got you covered when it comes to managing your resident association." />
   
-  <link rel="preconnect dns-prefetch" href="https://www.google-analytics.com" /><script></script>
-
+  <!-- <link rel="preconnect dns-prefetch" href="https://www.google-analytics.com" /><script></script> -->
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="faq.css">
   <link rel="stylesheet" href="layout.css">
+  <link rel="stylesheet" href="features.css">
+  <link rel="stylesheet" href="pricing.css">
+  <link rel="icon" href="images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Source+Sans+Pro:300,400,400i,700&amp;display=swap" rel="stylesheet" />
 </head>
 <body>
@@ -33,6 +38,9 @@
       <a href="/">
         <img src="images/buca_logo.svg" alt="Logo of BUCA App"/>
       </a>
+      <a href="#features" class="navigation-link">Features</a>
+      <a href="#pricing" class="navigation-link">Pricing</a>
+      <a href="#faq" class="navigation-link">FAQ</a>
     </section>
     <section class="right">
       <a href="https://forms.gle/NHbVCBFLMxjFxg657" target="_blank" rel="noreferrer" class="get-started">Contact Us</a>
@@ -56,73 +64,199 @@
         </section>
       </section>
       <section class="image">
-        <img src="images/sign_in_page.jpg" alt="Sign In Page of BUCA app"/>
+        <img src="images/dashboard_page_1.png" alt="Sign In Page of BUCA app"/>
       </section>
     </section>
     <section class="banner">
       <h2>Built by Resident Association.</h2>
       <h2>For Resident Associations.</h2>
     </section>
-    <section class="first-section">
-      <section class="selling-line">
-        <h2>Why use BUCA?</h2>
-      </section>
-      <section class="selling-points">
-        <Link to="/features#security-fee">
-          <section class="selling-point">
-            <img src="images/coin.svg" alt="Security Fee"/>
-            <h3>Security Fee</h3>
-            <p>Easily track, manage and follow up on security fee payments with additional features such as automatic receipt processing, audit trail and much more.</p>
+    <!-- <section class="product-feature-primer"> -->
+      <!-- <section class="title">
+        <h2>Features</h2>
+      </section> -->
+      <!-- <section class="primers">
+        <section class="primer">
+          <img src="images/shield-check.svg" alt="Security icon"/>
+          <h3>Monitor security on a platform you control</h3>
         </section>
-        </Link>
-        <Link to="/features#security">
-          <section class="selling-point">
-            <img src="images/shield-check.svg" alt="Security Icon"/>
-            <h3>Digitized Security</h3>
-            <p>With detailed security logs, provide reliable and hassle-free security to both residents and committee members .</p>
-          </section>
-        </Link>
-        <Link to="/features#management">
-          <section class="selling-point">
-            <img src="images/files.svg" alt="Effective Management Icon"/>
-            <h3>Effective Management</h3>
-            <p>Manage your Resident Association efficiently with a simplified workflow giving you more time to focus on the important things.</p>
-          </section>
-        </Link>
-        <!-- {/* <section class="selling-point">
-          <img src={Coin} alt="Evolution Icon"/>
-          <h3>Free of Charge</h3>
-          <p>Servers are currently self-funded and the service is offered free of charge.</p>
-        </section> */}
-        {/* <section class="selling-point">
-          <img src={Evolve} alt="Constantly Updating Icon"/>
-          <h3>Always Evolving</h3>
-          <p>Whether it's with bug fixes or newly added features, BUCA is constantly evolving by finding new ways to improve the processes of Resident Associations.</p>
-        </section> */} -->
-      </section>
-    </section>
-
-    <section class="divider">
+        <section class="primer">
+          <img src="images/plus-circle.svg" alt="Positive experience icon"/>
+          <h3>Create positive, quality experiences</h3>
+        </section>
+        <section class="primer">
+          <img src="images/pencil.svg" alt="Management icon"/>
+          <h3>Manage effectively and efficiently</h3>
+        </section>
+      </section> -->
+    <!-- </section> -->
+    <section class="product-features" id="features">
       <section class="title">
-
-      </section> 
-      <img src="images/paperwork.jpg" alt="Paperwork Workload"/>
-      <section class="description">
-        <h2>Work Efficiently</h2>
-        <p>BUCA was specifically built to address the tedious and repetitive tasks that comes with managing a Resident Association.</p>
-        <p>BUCA is the no-frills Resident Association solution.</p>
+        <h1>Features</h1>
+      </section>
+      <section class="product-feature" id="security">
+        <section class="title">
+          <img src="images/shield-check.svg" alt="Security icon"/>
+          <h3>Security</h3>
+        </section>
+        <section class="content">
+          <img src=images/security_1.png alt="Screenshot of security page"/>
+          <section class="feature-list">
+              <article class="feature-description">
+                <p class="header">Real-time monitoring</p>
+                <p>Ensure your visitors are always subjected to security checks.</p>
+              </article>
+              <article class="feature-description">
+                <p class="header">Inquiry</p>
+                <p>Allow security members, committee members and security guards to effectively trace information on any car number plates.</p>
+              </article>
+              <article class="feature-description">
+                <p class="header">Log statistics</p>
+                <p>View breakdowns of your car entries per entrance, which period has the highest activities, automatically generated weekly security reports and much more.</p>
+              </article>
+          </section>
+        </section>
+      </section>
+      <hr></hr>
+      <section class="product-feature" id="security-fee">
+        <section class="title">
+          <img src="images/coin.svg" alt="Positive experience icon"/>
+          <h3>Membership Payments</h3>
+        </section>
+        <section class="content" >
+          <img src="images/payments_1.png" alt="Screenshot of payment page"/>
+          <section class="feature-list">
+            <article class="feature-description">
+              <p class="header">Payments made easy</p>
+              <p>Allow residents to pay via a standardized process with auto-generated receipts after payment verification.</p>
+            </article>
+            <article class="feature-description">
+              <p class="header">Traceability</p>
+              <p>Trace important payment information such as cheque numbers, attachments, car plates and more.</p>
+            </article>
+            <article class="feature-description">
+              <p class="header">Audit</p>
+              <p>Inspection of your system's activity externally or internally made easy with audit trail and exportable spreadsheet.</p>
+            </article>
+          </section>
+        </section>
+      </section>
+      <hr></hr>
+      <section class="product-feature" id="management">
+        <section class="title">
+          <img src="images/files.svg" alt="Management icon"/>
+          <h3>Manage effectively and efficiently</h3>
+        </section>
+        <section class="content">
+          <img src="images/voucher_1.png" alt="Screenshot of payment voucher page"/>
+          <section class="feature-list">
+            <article class="feature-description">
+              <p class="header">Finance</p>
+              <p>Track your finances with the storage of invoices and creation of printable payment vouchers.</p>
+            </article>
+            <article class="feature-description">
+              <p class="header">Single source of truth</p>
+              <p>Consolidate data for users and households giving your association better and faster decision making capabilities.</p>
+            </article>
+            <article class="feature-description">
+              <p class="header">Event</p>
+              <p>Register attendance for important events such as Annual General Meeting (AGM) with a printable attendance sheet after events. <span class="note">(ROS requirement)</span></p>
+            </article>
+          </section>
+        </section>
+      </section>
+      <hr></hr>
+      <section class="additional-features">
+        <section class="title">
+          <img src="images/plus-circle.svg" alt="Additional Features"/>
+          <h3>Additional Features</h3>
+        </section>
+        <section class="content">
+          <section class="additional-feature">
+            <img src="images/security_stats.png" alt="Security Stats"/>
+            <p class="header">Security Stats</p>
+            <p>View various statistics on car entries along with weekly auto-generated security reports.</p>
+          </section>
+          <section class="additional-feature">
+            <img src="images/membership_stats.png" alt="Membership stats"/>
+            <p class="header">Membership Stats</p>
+            <p>Analyze different types of security members such as loyal members, dropouts, new members and much more.</p>
+          </section>
+          <section class="additional-feature">
+            <img src="images/car_info.png" alt="Car dashboard"/>
+            <p class="header">Centralized Data</p>
+            <p>Centralized database to easily track and manage consolidated information about users, houses and cars.</p>
+          </section>
+        </section>
+        <section class="more-features">
+          <p class="header">And much more...</p>
+          <p>Download product feature specifications here.</p>
+        </section>
       </section>
     </section>
-
-    <section class="last-section">
+    <section class="pricing-front-page" id="pricing">
+      <section class="header">
+        <h4>Pricing</h4>
+        <h1>Plans for all</h1>
+      </section>
+      <section class="announcement">
+        <!-- <section class="new">
+          <span class="new">NEW</span>
+        </section> -->
+        <section class="free">
+          <span class="free">FREE</span>
+        </section>
+        <section class="description">
+          <h2>BUCA requirements </h2>
+          <p>BUCA is free to use, your association has to meet the following requirements:</p>
+          <p class="fine">The association must be legally recognized and properly registered with the appropriate national or local regulatory body governing societies, non-profit organizations, or similar entities.</p>
+        </section>
+        <section class="action-button">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScrJMD2s14lrdJ_uvSRMe-jB_U3oxkcvXTJzRd_6RLACTCxTQ/viewform?usp=sf_link" target="_blank" rel="noreferrer">Sign Up</a>
+        </section>
+      </section>
+    </section>
+    <!-- <section class="last-section">
       <h2>Ready to get started with BUCA?</h2>
+      <p>We will create an account for you to try the various once you have signed up.</p>
       <section class="contact-us">
         <a href="https://docs.google.com/forms/d/e/1FAIpQLScrJMD2s14lrdJ_uvSRMe-jB_U3oxkcvXTJzRd_6RLACTCxTQ/viewform?usp=sf_link" target="_blank" rel="noreferrer">SIGN UP NOW</a>
+      </section> -->
+    </section>
+
+    <section>
+      <h2></h2>
+    </section>
+    <section class="faq" id="faq">
+      <h2>Frequently Asked Questions (FAQ)</h2>
+      <section>
+        <p class="question">Why is this free?</p>
+        <p class="answer">BUCA is free because we aim to be a Non-Profit Organisation that benefits Resident Association in every way that matters.</p>
+      </section>
+      <section>
+        <p class="question">Will the development and maintenance of BUCA ever stop?</p>
+        <p class="answer">New features will always be added in BUCA if there is a significant demand. Additionally, the only maintenance required of BUCA is security maintenance such as update of software and is therefore very straightforward. All data on BUCA is exportable so none of your data will ever be lost.</p>
+      </section>
+      <section>
+        <p class="question">How secure is your web application?</p>
+        <p class="answer">Our web application is hosted on Heroku which utilizes Amazon Web Services (AWS) technology. Heroku itself adheres to many security assessments and compliance. To know more, have a read on <a href="https://www.heroku.com/policy/security">Heroku's security policy</a>.</p>
+      </section>
+      <section>
+        <p class="question">Will the data on this application ever be misused or sold?</p>
+        <p class="answer">The data is only ever accessed by the developers of BUCA. We also do not see the benefits of selling our users' data as this application was developed solely for the benefit of resident associations. The team has various Resident Association members that understand, experience and enjoy the various moving parts of resident associations.</p>
+      </section>
+      <section>
+        <p class="question">Can I demo the application?</p>
+        <p class="answer">Yes, once you have signed up a new subdomain will be created for your association. <a href="https://docs.google.com/forms/d/e/1FAIpQLScrJMD2s14lrdJ_uvSRMe-jB_U3oxkcvXTJzRd_6RLACTCxTQ/viewform?usp=sf_link" target="_blank" rel="noreferrer" class="get-in-touch">Sign up here</a>.</p>
+      </section>
+      <section>
+        <p class="question">I have some additional questions regarding your application.</p>
+        <p class="answer">Please do submit a <a href="https://forms.gle/NHbVCBFLMxjFxg657" target="_blank" rel="noreferrer" class="get-in-touch">general inquiry</a> to us.</p>
       </section>
     </section>
   </section>
   <footer>
-    <p>BUCA © Copyright 2022. All rights reserved. Developed by <a href="https://www.samsheng.my">Sheng</a>. </p>
+    <p>BUCA © Copyright 2024. All rights reserved. Developed by <a href="https://www.samsheng.my">Sheng</a>. </p>
     <section class="right">
       <a href="https://docs.google.com/document/d/1yfpuwUGyZVVzqyJGGuO4lg10xx6BPFYEWv_hIvyXte4/edit?usp=sharing" target="_blank" rel="noreferrer">Privacy Policy</a>
       <a href="https://docs.google.com/document/d/1NPuAgjPorDL2g7uNVbDtE-LOI_0PNZ5v3ciSrJzHoEs/edit?usp=sharing" target="_blank" rel="noreferrer">Terms of Use</a>

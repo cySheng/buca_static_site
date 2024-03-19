@@ -171,14 +171,14 @@ section.pricing .rukun-tetangga {
     margin-top: 3rem;
  }
   .feature {
-    display: flex;
+    /* display: flex; */
     margin: 7rem 10rem;
    /* margin: 1rem;
     */
  }
-  .feature .image img {
-    margin-right: 2rem;
-    max-width: 30vw;
+  .feature  img {
+    /* margin-right: 2rem; */
+    max-width: 350px;
  }
   .feature .description {
     margin: auto 0;
