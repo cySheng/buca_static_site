@@ -55,10 +55,10 @@ mark {
   color: #000;
 }
 small {
-  font-size: 80%;
+  font-size: 12px;
 }
 sub, sup {
-  font-size: 75%;
+  font-size: 12px;
   line-height: 0;
   position: relative;
   vertical-align: baseline;
@@ -279,7 +279,7 @@ h5 {
   */
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 0.85028rem;
+  font-size: 1rem;
   line-height: 1.1;
 }
 h6 {
