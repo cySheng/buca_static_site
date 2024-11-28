@@ -39,7 +39,7 @@
     margin-bottom: 3rem;
 
     p.fine {
-      font-size: 16px;
+      font-size: 12px;
     }
 
     section.new {
@@ -91,7 +91,7 @@
       align-items: center;
       flex-grow: 2;
       justify-content: flex-end;
-      
+
 
       @media screen and (max-width: 1032px) {
         margin-top: 30px;
