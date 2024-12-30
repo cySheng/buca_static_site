@@ -1,0 +1,214 @@
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KG0XQX9VV0"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-KG0XQX9VV0');
+  </script>
+
+  <title>BUCA: The Resident Association Application</title>
+  <meta name="description" content="From security fee collection to internal RA management tools, BUCA has got you covered when it comes to managing your resident association." />
+  <meta name="keywords" content="BUCA, Malaysia, Resident Association, Rukun Tetangga, Community, Guarded Status, Guarded Neighborhood" />
+
+  <!-- <meta property="og:image" content="/static/og_image-198f627dc77a24fe0cf9d2ef28caac6f.png" /> -->
+  <meta property="og:title" content="The simplest resident association software around - BUCA" />
+  <meta property="og:description" content="From security fee collection to internal RA management tools, BUCA has got you covered when it comes to managing your resident association." />
+  <meta property="og:type" content="website" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:creator" content="Sheng" />
+  <meta name="twitter:title" content="The simplest resident association software around - BUCA" />
+  <meta name="twitter:description" content="From security fee collection to internal RA management tools, BUCA has got you covered when it comes to managing your resident association." />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <!-- <link rel="preconnect dns-prefetch" href="https://www.google-analytics.com" /><script></script> -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="faq.css">
+  <link rel="stylesheet" href="layout.css">
+  <link rel="stylesheet" href="features.css">
+  <link rel="stylesheet" href="pricing.css">
+  <link rel="icon" href="images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Source+Sans+Pro:300,400,400i,700&amp;display=swap" rel="stylesheet" />
+</head>
+</head>
+<body>
+  <header>
+    <section class="left">
+      <a href="/">
+        <img src="images/buca_logo.svg" alt="Logo of BUCA App"/>
+      </a>
+      <a href="index.html#features" class="navigation-link">Features</a>
+      <a href="features.html" class="navigation-link">Docs</a>
+      <a href="index.html#pricing" class="navigation-link">Pricing</a>
+      <a href="index.html#faq" class="navigation-link">FAQ</a>
+    </section>
+    <section class="right">
+      <a href="https://app.buca.my/public/companies/new" target="_blank" rel="noreferrer" class="get-started">Get Started</a>
+    </section>
+  </header>
+  <section class="main-features">
+    <section>
+      <h2>Types of Main Users</h2>
+      <p>There are two types of main users on this platform:</p>
+      <ol>
+        <li>Normal Users (Residents)</li>
+        <li>Power Users (Committee Members)</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Creating Payments</h2>
+      <h3>Who Can Create Payments?</h3>
+      <p>Both Normal Users and Power Users can create payments.</p>
+
+      <h3>Normal Users Creating Payments</h3>
+      <p>When a Normal User creates a payment, it involves:</p>
+      <ul>
+        <li>Entering their house address.</li>
+        <li>Choosing the number of cars and providing each car’s plate number.</li>
+        <li>Attaching a payment receipt and specifying the payment method, payment date, and any remarks.</li>
+      </ul>
+      <p><strong>Note:</strong> When a Normal User creates a payment, it is tied only to that user who created it.</p>
+
+      <h3>Power Users Creating Payments</h3>
+      <p>A Power User can do everything a Normal User does, plus:</p>
+      <ul>
+        <li>Change the house address for the payment.</li>
+        <li>Change the user associated with the payment.</li>
+        <li>Update car details on the payment.</li>
+        <li>Confirm the payment.</li>
+      </ul>
+      <p>It’s recommended that Normal Users (residents) create and enter their own payment details to reduce the committee’s workload. However, Power Users (committee members) can also create payments on behalf of Normal Users and <strong>must</strong> confirm all payments.</p>
+    </section>
+
+    <section>
+      <h2>Confirming Payments</h2>
+      <p>When a payment is confirmed, it means the attached payment receipt matches the payment details. Once confirmed:</p>
+      <ul>
+        <li>
+          An email with the payment receipt is automatically sent to the user’s email,
+          <strong>as long as they have logged in at least once before</strong> (to ensure the email is valid).
+        </li>
+        <li>
+          Both Normal Users and Power Users can view the confirmed receipt on the website.
+        </li>
+      </ul>
+      <p><strong>Note:</strong> We only send receipts to users who have logged in before. This may change in the future, depending on the RA’s request, to allow sending to all users regardless of their login status.</p>
+    </section>
+
+    <section>
+      <h2>Additional UX Features</h2>
+      <ol>
+        <li>
+          <strong>Auto-Fill From Previous Year</strong>
+          <ul>
+            <li>
+              When creating payment details for a house that had a payment in the previous year, the system can automatically:
+              <ul>
+                <li>Display users associated with that house (making it easier to select who the payment is for).</li>
+                <li>Copy the number of cars and car plate numbers from last year to speed up the process.</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <strong>Quick Confirmation (Beta)</strong>
+          <ul>
+            <li>Lets Power Users quickly view the payment receipt and details on a single page for easy confirmation.</li>
+            <li>Allows edits to the payment on the same page.</li>
+            <li>Once a payment is confirmed, the system automatically takes you to the next payment in line for confirmation.</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Normal Users</h2>
+      <p>
+        Certain features are only available to Normal Users who have “paid” for the latest year. A Normal User is considered
+        to have paid for the latest year if they’re associated with a house that has a payment confirmed by a Power User.
+      </p>
+
+      <h3>Normal User Features</h3>
+      <ol>
+        <li>
+          <strong>Search Car Plates</strong>
+          <ul>
+            <li>
+              Users can look up car plate details, but the information shown is limited for privacy:
+              <ul>
+                <li>If the car is associated with a payment, it will show that the car belongs to a specific street (but not the house number).</li>
+                <li>If the car is not associated with any payments, it will show the latest entry (date and time) of the car into the neighborhood and the street it visited (again, not the house number).</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <strong>Registered Visitors</strong>
+          <ul>
+            <li>Users can register visitors’ vehicles in advance.</li>
+            <li>
+              When the security guard enters the visitor’s car plate, they’ll see that this car is a registered visitor, which can reduce ID checks and speed up entry.
+            </li>
+            <li>This feature’s effectiveness depends on the RA security’s standard operating procedures.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>RSVP for Events</strong>
+          <ul>
+            <li>Users can see what events are happening (e.g., AGM) and submit RSVPs, specifying the number of attendees.</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+
+    <section>
+      <p><em>Thank you for using our platform to manage your neighborhood’s payments and activities!</em></p>
+    </section>
+    <h1>All Features</h1>
+    <h4>Membership Payments</h4>
+    <ol>
+      <li>Quick Confrim - Confirm payments easily and quickly</li>
+      <li>Receipt - A receipt is automatically generated and sent to payer</li>
+      <li>Issued - Easily track when gate tags and car sticker are issued. </li>
+      <li>Payment - Committee & residents are able to create membership payments</li>
+      <li>Statistics - View houses that have dropped out, due to pay, etc.</li>
+      <li>Import - Import user details, address of houses and membership payment details</li>
+      <li>Export - Easily export yearly payment details for audit and accounting pruposes</li>
+      <li>Cars - Keep track of number of vehicles associated with a membership payment</li>
+    </ol>
+    <h4>Security</h4>
+    <ol>
+      <li>Digital Log Book - Guards record car & motorbike entries through the app</li>
+      <li>Audit Trail - View reason for visits, car number plate and house address </li>
+      <li>Export - Export security logs</li>
+    </ol>
+    <h4>Finance</h4>
+    <ol>
+      <li>Invoice - Store invoice details and attachments for future reference</li>
+      <li>Payment Vouchers - Combine multiple invoices into one payment with auto-generated PV</li>
+      <li>Bookkeeping - Track your weekly, monthly and yearly expenditures</li>
+    </ol>
+    <h4>Events</h4>
+    <ol>
+      <li>AGM - Track attendances based on user info and house address</li>
+      <li>Export - Easily export attendances info for record keeping and audit requirements</li>
+    </ol>
+    <h4>Others</h4>
+    <ol>
+      <li>Visitors - Residents may register visitors for convenience and/or reduce car traffic</li>
+      <li>Users - Residents can create an account themselves or committee members amy assist</li>
+      <li>Statistics - View statistics on security (car entries) and membership payments</li>
+    </ol>
+  </section>
+  <footer>
+    <p>BUCA © Copyright 2024. All rights reserved. Developed by <a href="https://www.samsheng.my">Sheng</a>. </p>
+    <section class="right">
+      <a href="https://docs.google.com/document/d/1yfpuwUGyZVVzqyJGGuO4lg10xx6BPFYEWv_hIvyXte4/edit?usp=sharing" target="_blank" rel="noreferrer">Privacy Policy</a>
+      <a href="https://docs.google.com/document/d/1NPuAgjPorDL2g7uNVbDtE-LOI_0PNZ5v3ciSrJzHoEs/edit?usp=sharing" target="_blank" rel="noreferrer">Terms of Use</a>
+    </section>
+  </footer>
+</body>
